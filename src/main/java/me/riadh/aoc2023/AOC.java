@@ -9,6 +9,7 @@ public class AOC {
             case 1 -> puzzle = new Day1();
             case 2 -> puzzle = new Day2();
             case 3 -> puzzle = new Day3();
+            case 4 -> puzzle = new Day4();
             default -> throw new IllegalArgumentException("Invalid day");
         }
         return puzzle;
