@@ -12,7 +12,7 @@ public class AOC {
             case 4 -> puzzle = new Day4();
             case 5 -> puzzle = new Day5();
             case 6 -> puzzle = new Day6();
-//            case 7 -> puzzle = new Day7();
+            case 7 -> puzzle = new Day7();
 //            case 8 -> puzzle = new Day8();
 //            case 9 -> puzzle = new Day9();
 //            case 10 -> puzzle = new Day10();
