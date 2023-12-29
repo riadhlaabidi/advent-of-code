@@ -25,7 +25,7 @@ public class Day2 extends Puzzle {
     }
 
     @Override
-    public int solvePartTwo(List<String> input) {
+    public long solvePartTwo(List<String> input) {
         int sum = 0;
         for (String line : input) {
             String[] game = line.split(":\\s");

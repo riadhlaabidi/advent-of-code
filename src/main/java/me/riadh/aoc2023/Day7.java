@@ -29,7 +29,7 @@ public class Day7 extends Puzzle {
     }
 
     @Override
-    public int solvePartTwo(List<String> input) {
+    public long solvePartTwo(List<String> input) {
         input.forEach(i -> getScoreWithJoker(i.split("\\s+")[0]));
         input.sort((x, y) -> {
             String[] line1 = x.split("\\s+");

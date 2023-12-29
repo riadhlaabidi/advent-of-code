@@ -20,7 +20,7 @@ public class Day1 extends Puzzle {
     }
 
     @Override
-    public int solvePartTwo(List<String> input) {
+    public long solvePartTwo(List<String> input) {
         int sum = 0;
         for (String line : input) {
             sum += extractNumber(replaceFirstAndLast(line));

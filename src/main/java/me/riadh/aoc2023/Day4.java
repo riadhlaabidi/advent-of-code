@@ -26,7 +26,7 @@ public class Day4 extends Puzzle {
     }
 
     @Override
-    public int solvePartTwo(List<String> input) {
+    public long solvePartTwo(List<String> input) {
         int sum = 0;
         Map<Integer, Integer> cardCopies = new HashMap<>();
         for (String line : input) {

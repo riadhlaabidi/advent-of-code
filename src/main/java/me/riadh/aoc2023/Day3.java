@@ -57,7 +57,7 @@ public class Day3 extends Puzzle {
     }
 
     @Override
-    public int solvePartTwo(List<String> input) {
+    public long solvePartTwo(List<String> input) {
         return 0;
     }
 }

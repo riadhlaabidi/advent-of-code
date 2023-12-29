@@ -35,7 +35,7 @@ public class Day6 extends Puzzle {
     }
 
     @Override
-    public int solvePartTwo(List<String> input) {
+    public long solvePartTwo(List<String> input) {
         long time = Long.parseLong(input.getFirst().split(":\\s+")[1].replaceAll("\\s+", ""));
         long distance = Long.parseLong(input.get(1).split(":\\s+")[1].replaceAll("\\s+", ""));
         int waysToWin = 0;

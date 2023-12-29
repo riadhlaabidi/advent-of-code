@@ -21,7 +21,7 @@ public abstract class Puzzle {
 
     public abstract int solvePartOne(List<String> input);
 
-    public abstract int solvePartTwo(List<String> input);
+    public abstract long solvePartTwo(List<String> input);
 
     private List<String> loadInput() {
         String filename = String.format("day%d.txt", day);
